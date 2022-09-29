@@ -124,8 +124,8 @@ input::placeholder {
       opacity: 0;
   }
   100%{
-      bottom: 105%;
-      opacity: 1;
+      bottom: 150%;
+      opacity: 0.5;
   }
 }
 
