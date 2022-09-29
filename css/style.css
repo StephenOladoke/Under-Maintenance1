@@ -108,6 +108,27 @@ input::placeholder {
   background-color: #fff;
   color: #0d6a81;
 }
+
+.rocket{
+  width: 250px;
+  position: absolute;
+  align-items: center;
+  /* right: 10%; */
+  bottom: 0;
+  animation: rocket 4s linear infinite;
+}
+
+@keyframes rocket{
+  0%{
+      bottom: 0;
+      opacity: 0;
+  }
+  100%{
+      bottom: 105%;
+      opacity: 1;
+  }
+}
+
 @media screen and (max-width: 300px) {
   .container header {
     font-size: 50px;
